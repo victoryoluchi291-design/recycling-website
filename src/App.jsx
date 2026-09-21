@@ -1,5 +1,5 @@
 import React from 'react'
-// import facilityimage from "./assets/image41.jpg.jpg"
+import facilityimage from "./assets/image41.jpg.jpg"
 // import facilityimage2 from "./assets/image42.jpg.jpg"
 // import facilityimage3 from "./assets/image43.jpg.jpg"
 
@@ -51,7 +51,7 @@ const App = () => {
             <h1>OUR FACILITIES</h1>
             <div className="row">
                 <div className="facilities-col">
-                    {/* <img src={facilityimage} alt="456"/> */}
+                    <img src={facilityimage} alt="456"/>
                     <h3>ACO RECYCLING</h3>
                 </div>
                 <div className="facilities-col">
