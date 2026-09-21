@@ -3,6 +3,7 @@ import logoimage from "./assets/image4.jpeg"
 import facilityimage from "./assets/image41.jpg.jpg"
 import facilityimage2 from "./assets/image42.jpg.jpg"
 import facilityimage3 from "./assets/image43.jpg.jpg"
+import processimage1 from "./assets/image2.jpg.jpeg"
 
 const App = () => {
   return (
@@ -72,7 +73,7 @@ const App = () => {
            <div className="row">
 
                <div className="process-card">
-                <img src="images/WASTE 2.jpeg" alt=""/>
+                <img src={processimage1}alt="765"/>
                 <h3>Collection</h3>
                </div>
                <div className="process-card">
@@ -91,7 +92,7 @@ const App = () => {
         <h1>TESTIMONIALS</h1>
         <h2>Real feedback from businesses and individuals</h2>
 
-        <div/>className="testimonial-container"
+        <div className="testimonial-container"/>
             <div className="card">
                 <div>
                     <img src="images/JOSHUA3.jpeg" alt=""/>
