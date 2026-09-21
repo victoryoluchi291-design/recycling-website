@@ -4,6 +4,7 @@ import facilityimage from "./assets/image41.jpg.jpg"
 import facilityimage2 from "./assets/image42.jpg.jpg"
 import facilityimage3 from "./assets/image43.jpg.jpg"
 import processimage1 from "./assets/image2.jpg.jpeg"
+import processimage2 from "./assets/image1.jpg.jpg"
 
 const App = () => {
   return (
@@ -77,7 +78,7 @@ const App = () => {
                 <h3>Collection</h3>
                </div>
                <div className="process-card">
-                <img src="images/waste 1.jpg" alt=""/>
+                <img src={processimage2}alt="432"/>
                 <h3>Recycling</h3>
                </div>
                 <div className="process-card">
