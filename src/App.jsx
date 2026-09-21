@@ -1,4 +1,5 @@
 import React from 'react'
+import logoimage from "./assets/image4.jpeg"
 import facilityimage from "./assets/image41.jpg.jpg"
 import facilityimage2 from "./assets/image42.jpg.jpg"
 import facilityimage3 from "./assets/image43.jpg.jpg"
@@ -8,7 +9,7 @@ const App = () => {
     <div>
       <section className="header">
         <nav>
- <a href="index.html"><img src="images/logo.png.jpeg" alt=""/></a>
+ <a href="index.html"><img src={logoimage} alt="123"/></a>
   
         <div className="nav-links">
             <ul>
