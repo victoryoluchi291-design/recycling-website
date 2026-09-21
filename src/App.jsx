@@ -96,22 +96,23 @@ const App = () => {
         <h1>TESTIMONIALS</h1>
         <h2>Real feedback from businesses and individuals</h2>
 
-        <div className="testimonial-container"/>
-            <div className="card">
+      <div className="Testimonials-container">
+<div className="card">
                 <div>
                     <img src={testimonialimage1} alt="222"/>
                     <h3>David Somtochukwu</h3>
                     <p>This place provides a valuable service to the community, helping divert toxic and precious materials from the landfill to be reused again.it. <br/> Drop-off is free and easy for all sorts of electronics and metals. Some stuff, like plastic film and styrofoam, is a small fee, but it's worth </p>
                 </div>
             </div>
+            
             <div className="card">
                 <div>
                     <img src={testimonialimage2} alt="333"/>
                      <h3>Victory Oluchi</h3>
                      <p>Took all my E-waste at no charge to me. Very easy drop-off.</p>
                 </div>
-                
                 </div>
+
                 <div className="card">
                 <div> 
                     <img src={testimonialimage3} alt="444"/>
@@ -120,7 +121,9 @@ const App = () => {
                     <br/>It was easy to drop off and pay. Everyone is friendly. I will be back with other materials!</p>
                 </div>
             
-        </div>
+</div>
+      </div>
+            
       </section>
       {/* <!-- call to action --> */}
        <section className="cta">

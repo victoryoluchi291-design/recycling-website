@@ -295,15 +295,15 @@ size: 70px;
     margin-bottom: 50px;
     color: rgb(2, 2, 85);}
   
-  .testimonial-container{
-display: flex;
- justify-content: space-between;
- gap: 16px;
+  .Testimonials-container .card{
+flex: 1;
+padding: 25px;
+ background-color: rgb(111, 238, 111);
                 }
- .testimonial-container .card{
-   flex: 1;
-background-color:  rgba(131, 230, 98, 0.849) ;
-  padding: 30px;
+ .Testimonials-container{
+  display:flex;
+  gap: 20px;
+;   padding: 30px;
                     
                   }
                 
@@ -345,12 +345,12 @@ background-color:  rgba(131, 230, 98, 0.849) ;
         margin-bottom: 25px;
     }
 
-    .testimonial-container {
+    .Testimonials-container {
         flex-direction: column;
         gap: 20px;
     }
 
-    .testimonial-container .card {
+    .Testimonials-container .card {
         width: 100%;
         box-sizing: border-box;
         padding: 25px;
