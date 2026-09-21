@@ -7,6 +7,8 @@ import processimage1 from "./assets/image2.jpg.jpeg"
 import processimage2 from "./assets/image1.jpg.jpg"
 import processimage3 from "./assets/image3.jpg.jpeg"
 import testimonialimage1 from "./assets/image39.jpg.jpeg"
+import testimonialimage2 from "./assets/image38.jpg.jpg"
+import testimonialimage3 from "./assets/image40.jpg.jpg"
 const App = () => {
   return (
     <div>
@@ -104,7 +106,7 @@ const App = () => {
             </div>
             <div className="card">
                 <div>
-                    <img src="images/image 38.jpg" alt=""/>
+                    <img src={testimonialimage2} alt="333"/>
                      <h3>Victory Oluchi</h3>
                      <p>Took all my E-waste at no charge to me. Very easy drop-off.</p>
                 </div>
@@ -112,7 +114,7 @@ const App = () => {
                 </div>
                 <div className="card">
                 <div> 
-                    <img src="images/image 39.jpg" alt=""/>
+                    <img src={testimonialimage3} alt="444"/>
                     <h3>BIOS Environmental</h3>
                     <p>I'm thankful this place exists. They take a variety of things to recycle that cannot be recycled through the curbside service. 
                     <br/>It was easy to drop off and pay. Everyone is friendly. I will be back with other materials!</p>
