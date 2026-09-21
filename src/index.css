@@ -191,8 +191,8 @@ text-align: center;
 max-width: 100%;
 height:auto ;
 display: block;
-border-radius: 15px;
-size: 70px;
+border-radius: 18px;
+size: 50px;
 }
 .facilities-col h3{
     color:  rgb(2, 2, 85);
@@ -247,7 +247,7 @@ size: 70px;
     width: 90%;
     height: 230px;
     object-fit: cover;
-    border-radius: 15px;
+    border-radius: 10px;
     display: block;
     margin: 0 auto;
      }
