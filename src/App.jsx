@@ -6,6 +6,7 @@ import facilityimage3 from "./assets/image43.jpg.jpg"
 import processimage1 from "./assets/image2.jpg.jpeg"
 import processimage2 from "./assets/image1.jpg.jpg"
 import processimage3 from "./assets/image3.jpg.jpeg"
+import testimonialimage1 from "./assets/image39.jpg.jpeg"
 const App = () => {
   return (
     <div>
@@ -96,7 +97,7 @@ const App = () => {
         <div className="testimonial-container"/>
             <div className="card">
                 <div>
-                    <img src="images/JOSHUA3.jpeg" alt=""/>
+                    <img src={testimonialimage1} alt="222"/>
                     <h3>David Somtochukwu</h3>
                     <p>This place provides a valuable service to the community, helping divert toxic and precious materials from the landfill to be reused again.it. <br/> Drop-off is free and easy for all sorts of electronics and metals. Some stuff, like plastic film and styrofoam, is a small fee, but it's worth </p>
                 </div>
