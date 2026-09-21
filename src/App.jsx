@@ -1,4 +1,7 @@
 import React from 'react'
+import facilityimage from "./assets/image41.jpg.jpg"
+import facilityimage2 from "./assets/image42.jpg.jpg"
+import facilityimage3 from "./assets/image43.jpg.jpg"
 
 const App = () => {
   return (
@@ -48,15 +51,15 @@ const App = () => {
             <h1>OUR FACILITIES</h1>
             <div className="row">
                 <div className="facilities-col">
-                    <img src="images/images 41.jpg" alt=""/>
+                    <img src={facilityimage} alt="456"/>
                     <h3>ACO RECYCLING</h3>
                 </div>
                 <div className="facilities-col">
-                    <img src="images/images 42.jpg" alt=""/>
+                    <img src={facilityimage2} alt="890"/>
                     <h3>MMS</h3>
                 </div>
                 <div className="facilities-col">
-                    <img src="images/images 43.jpg" alt=""/>
+                    <img src={facilityimage3} alt="098"/>
                     <h3>WASTE POINT</h3>
                 </div>
             </div>
